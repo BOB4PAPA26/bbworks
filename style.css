@@ -301,6 +301,10 @@ img {
     /* 影をつけて浮き上がらせる */
     text-align: center;
     transition: transform 0.3s ease;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    /* 中央寄せと間隔確保 */
+    width: 100%;
 }
 
 .reason-number {

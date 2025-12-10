@@ -227,8 +227,16 @@ img {
 }
 
 .worry-icon {
-    font-size: 3rem;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worry-icon img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
 }
 
 .worries-message {

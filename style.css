@@ -53,10 +53,11 @@ h3 {
     /* ホバー時に薄い黄色背景 */
 }
 
-background-color: rgba(254, 212, 0, 0.3);
-/* タップ時に少し濃い背景 */
-transform: scale(0.98);
-/* 少し縮む演出 */
+.nav ul li a:active {
+    background-color: rgba(254, 212, 0, 0.3);
+    /* タップ時に少し濃い背景 */
+    transform: scale(0.98);
+    /* 少し縮む演出 */
 }
 
 .ib {
@@ -244,7 +245,7 @@ img {
 }
 
 .worry-icon img {
-    width: 80px;
+    width: 120px;
     height: auto;
     object-fit: contain;
 }

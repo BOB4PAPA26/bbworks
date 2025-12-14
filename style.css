@@ -183,11 +183,17 @@ img {
 .hero-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    /* 追加: 中央寄せ */
     gap: 40px;
+    text-align: center;
+    /* 追加: テキスト中央寄せ */
 }
 
 .hero-content {
     flex: 1;
+    max-width: 800px;
+    /* 追加: 幅が広がりすぎないように */
 }
 
 .hero-title {
